@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Mix 4",
+    "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eba91ecec6eabf17bf8d997d82/4/tr/default"
+  },
+  {
+    "id": 2,
+    "title": "Daily Mix 5",
+    "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb23bb9081eb5614e8e8e81990/5/tr/default"
+  },
+
+  {
+    "id": 3,
+    "title": "Beğendiğin Şarkılar",
+    "image": "https://misc.scdn.co/liked-songs/liked-songs-640.png"
+  },
+
+  {
+    "id": 4,
+    "title": "x chill",
+    "image": "https://i.scdn.co/image/ab67706c0000da8475d81c595e391e416bad6c5e"
+  },
+  {
+    "id": 5,
+    "title": "Hot Hits Türkiye",
+    "image": "https://i.scdn.co/image/ab67706f000000022bd892108d7e276e0dd85933"
+  },
+  {
+    "id": 6,
+    "title": "Türkçe Pop",
+    "image": "https://i.scdn.co/image/ab67706f0000000297f62466ae52342aff5a3b83"
+  },
+
+  {
+    "id": 7,
+    "title": "Daily Mix 3",
+    "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb3f4709dd278aff44955c0839/3/tr/default"
+  },
+  {
+    "id": 8,
+    "title": "Türküler En İyi 50",
+    "image": "https://i.scdn.co/image/ab67706c0000da84d3fc462b37c47ad47a7a795f"
+  }
+]
