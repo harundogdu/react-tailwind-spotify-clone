@@ -14,7 +14,7 @@ const SideBar = () => {
       <SecondMenu />
       <Divide />
       <Playlists />
-      <DownloadApp />
+      <DownloadApp />      
     </div>
   );
 };
