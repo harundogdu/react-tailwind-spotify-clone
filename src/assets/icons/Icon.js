@@ -101,6 +101,90 @@ const SongYouLikeIcon = ({ size = 12, active = false }) => {
     </span>
   );
 };
+const prevIcon = ({ size = 24, active = false }) => {
+  return (
+    <svg
+      role="img"
+      focusable="false"
+      viewBox="0 0 24 24"
+      height={size}
+      width={size}
+      className={`fill-current !text-white`}
+    >
+      <polyline
+        points="16 4 7 12 16 20"
+        fill="none"
+        stroke="currentColor"
+      ></polyline>
+    </svg>
+  );
+};
+
+const nextIcon = ({ size = 24, active = false }) => {
+  return (
+    <svg
+      role="img"
+      focusable="false"
+      viewBox="0 0 24 24"
+      height={size}
+      width={size}
+      className={`fill-current !text-white`}
+    >
+      <polyline
+        points="8 4 17 12 8 20"
+        fill="none"
+        stroke="currentColor"
+      ></polyline>
+    </svg>
+  );
+};
+const moreIcon = ({ size = 24, active = false }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      className={`fill-current !text-white`}
+      viewBox="0 0 16 16"
+    >
+      <path d="M3 6l5 5.794L13 6z"></path>
+    </svg>
+  );
+};
+const accountIcon = ({ size = 24, active = false }) => {
+  return (
+    <svg
+      role="img"
+      viewBox="0 0 16 16"
+      height={size}
+      width={size}
+      className={`fill-current !text-white`}
+    >
+      <path
+        fill-rule="evenodd"
+        d="M15 7V1H9v1h4.29L7.11 8.18l.71.71L14 2.71V7h1zM1 15h12V9h-1v5H2V4h5V3H1v12z"
+        clip-rule="evenodd"
+      ></path>
+    </svg>
+  );
+};
+const playerGreenIcon = ({ size = 24, active = false }) => {
+  return (
+    <svg
+      height={size}
+      width={size}
+      role="img"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className={`fill-current !text-white`}
+    >
+      <polygon
+        points="21.57 12 5.98 3 5.98 21 21.57 12"
+        fill="currentColor"
+      ></polygon>
+    </svg>
+  );
+};
 
 const Icon = ({ name = "default", size = 24, active = false }) => {
   const icons = {
@@ -110,6 +194,11 @@ const Icon = ({ name = "default", size = 24, active = false }) => {
     downloadApp: DownloadAppIcon,
     like: SongYouLikeIcon,
     default: DefaultIcon,
+    prev: prevIcon,
+    next: nextIcon,
+    more: moreIcon,
+    account: accountIcon,
+    playerGreen: playerGreenIcon,
   };
 
   const Component = icons[name];
