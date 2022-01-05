@@ -1,11 +1,13 @@
 import React from "react";
 import songsData from "assets/data/songs.json";
 import HorizontalCard from "components/Content/HorizontalCard";
+import { randomArrayShuffle } from "utils/utils";
+
 const UpperSection = ({ title }) => {
   const [items, setItems] = React.useState([]);
 
   React.useEffect(() => {
-    setItems(songsData);
+    setItems(randomArrayShuffle(songsData,true));
   }, []);
 
   return (
