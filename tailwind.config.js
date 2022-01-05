@@ -12,11 +12,14 @@ module.exports = {
         bgGradient: "#414341",
         bgSettingsHover: "#ffffff1a",
         bgHorizontalCard: "#ffffff63",
+        bgShadow: "#333",
+        bgNavbarActive: "#2D0003",
       },
-      minHeight: {
-        fullSizeForSideBar: "86vh",
+      spacing: {
+        songRem: "9.375rem",
+        fullSizeForSideBar: "87vh",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
