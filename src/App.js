@@ -5,10 +5,10 @@ import Footer from "components/Footer";
 /* funnction */
 function App() {
   return (
-    <div className="flex flex-col bg-bgSideBar text-white">
+    <div className="w-full h-full flex flex-col text-white relative">
       <div className="flex">
         <SideBar />
-        <div className="flex-1 flex-col items-center justify-center">
+        <div className="right-0 left-[240px] absolute bg-bgSideBar flex-1 flex-col items-center justify-center  pb-28">
           <NavBar />
           <Content />
         </div>

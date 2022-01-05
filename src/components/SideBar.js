@@ -8,7 +8,7 @@ import Divide from "components/SideBar/Divide";
 
 const SideBar = () => {
   return (
-    <div className="w-60 flex flex-col flex-shrink-0 bg-black pt-6 min-h-fullSizeForSideBar">
+    <div className="w-60 flex flex-col h-fullSizeForSideBar flex-shrink-0 bg-black pt-6 fixed left-0 top-0 z-10">
       <Logo />
       <Menu />
       <SecondMenu />
