@@ -14,6 +14,8 @@ module.exports = {
         bgHorizontalCard: "#ffffff63",
         bgShadow: "#333",
         bgNavbarActive: "#2D0003",
+        playerNormal : "#535353",
+        playerHover : "#1db954",
       },
       spacing: {
         songRem: "9.375rem",
