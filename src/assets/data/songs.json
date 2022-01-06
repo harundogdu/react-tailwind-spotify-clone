@@ -4,14 +4,18 @@
     "title": "Daily Mix 4",
     "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eba91ecec6eabf17bf8d997d82/4/tr/default",
     "description": "Günlük Mix 4 Listesi",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 2,
     "title": "Daily Mix 5",
     "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb23bb9081eb5614e8e8e81990/5/tr/default",
     "description": "Günlük Mix 5 Listesi",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "artist": "Harun Doğdu"
   },
 
   {
@@ -19,7 +23,9 @@
     "title": "Beğendiğin Şarkılar",
     "image": "https://misc.scdn.co/liked-songs/liked-songs-640.png",
     "description": "Beğendiğin Şarkılar Listesi",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://freesound.org/data/previews/93/93983_43-lq.mp3",
+    "artist": "Harun Doğdu"
   },
 
   {
@@ -27,21 +33,27 @@
     "title": "x chill",
     "image": "https://i.scdn.co/image/ab67706c0000da8475d81c595e391e416bad6c5e",
     "description": "x chill Listesi",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://freesound.org/data/previews/613/613163_12946258-lq.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 5,
     "title": "Hot Hits Türkiye",
     "image": "https://i.scdn.co/image/ab67706f000000022bd892108d7e276e0dd85933",
     "description": "Hot Hits Türkiye Listesi",
-    "type": "album"
+    "type": "album",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 6,
     "title": "Türkçe Pop",
     "image": "https://i.scdn.co/image/ab67706f0000000297f62466ae52342aff5a3b83",
     "description": "Türkçe Pop Listesi",
-    "type": "album"
+    "type": "album",
+    "src": "https://freesound.org/data/previews/613/613564_1648170-lq.mp3",
+    "artist": "Harun Doğdu"
   },
 
   {
@@ -49,28 +61,36 @@
     "title": "Daily Mix 3",
     "image": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb3f4709dd278aff44955c0839/3/tr/default",
     "description": "Günlük Mix 3 Listesi",
-    "type": "album"
+    "type": "album",
+    "src": "https://freesound.org/data/previews/613/613725_7037-lq.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 8,
     "title": "Türküler En İyi 50",
     "image": "https://i.scdn.co/image/ab67706c0000da84d3fc462b37c47ad47a7a795f",
     "description": "Türküler En İyi 50 Listesi",
-    "type": "album"
+    "type": "album",
+    "src": "https://freesound.org/data/previews/613/613163_12946258-lq.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 9,
     "title": "Kirli Yüzlü Melek",
     "image": "https://i.scdn.co/image/6f15af4b29b6c5a8589092a9da929697e6502419",
     "description": "Cihat Demir",
-    "type": "artist"
+    "type": "artist",
+    "src": "https://freesound.org/data/previews/613/613725_7037-lq.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 10,
     "title": "tutunamayanlar",
     "image": "https://i.scdn.co/image/a37aac1c72bfe2fe808f9f66386ec93887ec3cdc",
     "description": "Aydoğan Arıcan",
-    "type": "artist"
+    "type": "artist",
+    "src": "https://freesound.org/data/previews/613/613898_5674468-lq.mp3",
+    "artist": "Harun Doğdu"
   },
 
   {
@@ -78,20 +98,26 @@
     "title": "Reddiz Zone",
     "image": "https://i.scdn.co/image/7960f21c34a9ca8d34ab403def177f62f983a0ae",
     "description": "Rekkitz",
-    "type": "artist"
+    "type": "artist",
+    "src": "https://freesound.org/data/previews/613/613040_12946258-lq.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 12,
     "title": "Barış Özcan ile 111 Hz",
     "image": "https://i.scdn.co/image/ab67656300005f1f29fa10ab45549632ac87c331",
     "description": "Podbee Media",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "artist": "Harun Doğdu"
   },
   {
     "id": 13,
     "title": "Hayalhanem Podcast",
     "image": "https://i.scdn.co/image/01b7bec996228247d9fa1c40a1782d59f63d0c8d",
     "description": "hayalhanem",
-    "type": "playlist"
+    "type": "playlist",
+    "src": "https://freesound.org/data/previews/613/613040_12946258-lq.mp3",
+    "artist": "Harun Doğdu"
   }
 ]

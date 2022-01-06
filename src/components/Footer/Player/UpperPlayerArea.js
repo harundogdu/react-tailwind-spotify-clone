@@ -1,7 +1,10 @@
 import React from "react";
 import { Icon } from "assets/icons/Icon";
+import { useSelector } from "react-redux";
 
-const UpperPlayerArea = ({ audio, state, controls }) => {
+const UpperPlayerArea = ({ audio, state}) => {
+  const controls = useSelector((state) => state.player.controls);
+
   const handleClick = () => {
     if (state.playing) {
       controls.pause();

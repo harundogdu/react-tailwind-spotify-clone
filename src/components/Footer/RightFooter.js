@@ -1,8 +1,11 @@
 import React from "react";
 import CustomRange from "components/Footer/Player/CustomRange";
 import { Icon } from "assets/icons/Icon";
+import { useSelector } from "react-redux";
 
-const RightFooter = ({ state, controls }) => {
+const RightFooter = ({ state}) => {
+  const controls = useSelector((state) => state.player.controls);
+
   const handleVolumeClick = () => {
     if (state.muted) {
       controls.unmute();

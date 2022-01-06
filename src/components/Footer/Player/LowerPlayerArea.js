@@ -1,8 +1,11 @@
 import React from "react";
 import CustomRange from "components/Footer/Player/CustomRange";
 import { secondToTime } from "utils/utils";
+import { useSelector } from "react-redux";
 
-const LowerPlayerArea = ({ state, controls }) => {
+const LowerPlayerArea = ({ state }) => {
+  const controls = useSelector((state) => state.player.controls);
+
   return (
     <div className=" w-[600px] flex items-center justify-between gap-x-2">
       <div className="m-w-[40px] text-right text-[11px] tracking-widest">
