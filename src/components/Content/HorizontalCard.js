@@ -20,7 +20,7 @@ const HorizontalCard = ({ items }) => {
   };
 
   return (
-    <div className="grid grid-cols-4 gap-x-5 gap-y-4">
+    <div className="grid grid-cols-4 gap-x-5 gap-y-4 mt-4">
       {items.map((item, index) => (
         <div
           key={item.id}

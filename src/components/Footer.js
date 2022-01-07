@@ -30,9 +30,9 @@ const Footer = () => {
     dispatch(setControls(controls));
   }, [state.playing]);
 
-  useEffect(() => {
+ /*  useEffect(() => {
     dispatch(setControls(controls));
-  }, []);
+  }, []); */
 
   const handleClick = () => {
     if (state.playing) {

@@ -20,13 +20,14 @@ const HomeIcon = ({ size, active = false }) => {
   );
 };
 
-const SearchIcon = ({ size, active = false }) => {
+const SearchIcon = ({ size, active = false, style = null }) => {
   return (
     <svg
       role="img"
       viewBox="0 0 24 24"
       height={size}
       width={size}
+      style={style}
       className={`${
         active ? "fill-current text-white" : "fill-current text-bgText"
       } group-hover:text-white`}
@@ -102,7 +103,7 @@ const SongYouLikeIcon = ({ size = 12, active = false }) => {
   );
 };
 
-const prevIcon = ({ size = 24, active = false }) => {
+const prevIcon = ({ size = 24, active = false, style = null }) => {
   return (
     <svg
       role="img"
@@ -110,7 +111,8 @@ const prevIcon = ({ size = 24, active = false }) => {
       viewBox="0 0 24 24"
       height={size}
       width={size}
-      className={`fill-current !text-white`}
+      className={`fill-current text-white`}
+      style={style}
     >
       <polyline
         points="16 4 7 12 16 20"
@@ -121,7 +123,7 @@ const prevIcon = ({ size = 24, active = false }) => {
   );
 };
 
-const nextIcon = ({ size = 24, active = false }) => {
+const nextIcon = ({ size = 24, active = false, style = null }) => {
   return (
     <svg
       role="img"
@@ -129,7 +131,8 @@ const nextIcon = ({ size = 24, active = false }) => {
       viewBox="0 0 24 24"
       height={size}
       width={size}
-      className={`fill-current !text-white`}
+      className={`fill-current text-white`}
+      style={style}
     >
       <polyline
         points="8 4 17 12 8 20"
@@ -487,7 +490,12 @@ const HeartFilledIcon = ({ size }) => {
   );
 };
 
-const Icon = ({ name = "default", size = 24, active = false }) => {
+const Icon = ({
+  name = "default",
+  size = 24,
+  active = false,
+  style = null,
+}) => {
   const icons = {
     home: HomeIcon,
     search: SearchIcon,
@@ -522,7 +530,7 @@ const Icon = ({ name = "default", size = 24, active = false }) => {
   };
 
   const Component = icons[name];
-  return <Component size={size} active={active} />;
+  return <Component size={size} active={active} style={style} />;
 };
 
 export { Icon };

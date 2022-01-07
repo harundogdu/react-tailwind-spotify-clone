@@ -2,6 +2,7 @@ import React from "react";
 import LeftNavBar from "components/NavBar/LeftNavBar";
 import RightNavBar from "components/NavBar/RightNavBar";
 import { useMatch } from "react-router-dom";
+import SearchBox from "components/Search/SearchBox";
 
 const Navbar = () => {
   const searchRoute = useMatch("/search");
@@ -22,7 +23,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-center gap-x-4">
         <LeftNavBar />
-        {searchRoute && <div>Arama sayfası</div>}
+        {searchRoute && <SearchBox />}
         {collectionRoute && <div>Kitaplığın sayfası</div>}
       </div>
       <RightNavBar />
