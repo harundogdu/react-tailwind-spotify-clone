@@ -22,7 +22,7 @@ Bu proje [Create React App](https://github.com/facebook/create-react-app) ve [Ta
 Ardından terminal ekranını açarak, projenin kurulmasını istediğiniz bir alana gelerek yapıştırıp çalıştırınız.
 
 ```
-git clone https://github.com/harundogdu/https://github.com/harundogdu/react-tailwind-spotify-clone.git
+git clone https://github.com/harundogdu/react-tailwind-spotify-clone.git
 ```
 <br />
 Klonlama işleminin ardından terminal ekranına istediğiniz projenin adını yazarak, aşağıda bulunan kodu yapıştırıp çalıştırınız.
