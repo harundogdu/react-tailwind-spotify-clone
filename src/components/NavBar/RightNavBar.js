@@ -29,7 +29,7 @@ const RightNavBar = () => {
         }
       >
         <img
-          src="https://harundogdu.com/storage/image/43449361-09-08-2021_00-04-51.jpg"
+          src="https://avatars.githubusercontent.com/u/43449361?v=4"
           alt="Logo Image"
           className="w-6 h-6 rounded-full"
         />
